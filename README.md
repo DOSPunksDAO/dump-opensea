@@ -26,7 +26,7 @@
 
 A simple Python script to **retrieve Owners/Holders of a whole NFT collection on ETH (OpenSea)**.
 
-Coded by [GBE](https://github.com/gbe3hunna/) for the [DOS PUNKS DAO](https://github.com/DOSPunksDAO) to thank [@maxcapacity](https://twitter.com/maxcapacity) and [@greencrosslive](https://twitter.com/greencrosslive) all their effort to build such a strong #DOSLIFE.
+Coded by [GBE](https://github.com/gbe3hunna/) for the [DOS PUNKS DAO](https://github.com/DOSPunksDAO) to thank [@maxcapacity](https://twitter.com/maxcapacity) and [@greencrosslive](https://twitter.com/greencrosslive) for all their effort in buidling such a strong #DOSLIFE.
 
 This script can be useful for any NFT project staff to Snapshot the actual holders
 
