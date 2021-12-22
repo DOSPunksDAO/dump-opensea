@@ -1,0 +1,5 @@
+# Production
+requests >= 2.25.1
+alive_progress >= 2.1.0
+colorama >= 0.4.4
+argparse >= 1.4.0
