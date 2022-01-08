@@ -1,5 +1,6 @@
 # Import necessary libraries
 import requests, argparse, json, sys, time
+import math
 from colorama import Fore, Back, Style, init as coloramaInit
 from alive_progress import alive_bar as progressBar
 
@@ -142,7 +143,7 @@ def main():
     showHeader()
     try: slug, contract, totalMinted, apiKey, tokenFilter = flagInit() #Init with flags
     except: slug, contract, totalMinted, apiKey, tokenFilter = inputInit() #Init with user input
-    pagination = round(int(totalMinted) / 50) #Get pagination
+    pagination = int(math.ceil((int(totalMinted)) / 50)) #Get pagination
     getOwners(slug, contract, pagination, tokenFilter, apiKey) #Main method
     exportJSON(slug) #Export results
 
