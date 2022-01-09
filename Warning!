@@ -1,5 +1,0 @@
-Somtimes this script will produce a result that is different than what is seen on the OpenSea main collection page.
-If the collection is on the OpenSea Shared Storefront (OPENSTORE) contract (0x495f947276749Ce646f68AC8c248420045cb7b5e), then this script will not include as part of the result the owners of NFTs for which the owner is the NFT minter.  In other words, if the NFT was minted on OpenSea and is still owned by the minter, then this will not be reflected in the total NFTs owned after running the script (neither will the owner for such an NFT).
-Unlike above, NFTs on their own contract will be included in the script results even if the minter of the NFT is still the owner.
-If the OpenSea collection is on its own contract, the script can sometimes show a different number for total NFTs minted than what is displayed on OpenSea if the NFTs are held by the Null Address: 0x0000000000000000000000000000000000000000.
-Please reach out to bodaciouspirate on Twitter if you have questions or want to see an example.
