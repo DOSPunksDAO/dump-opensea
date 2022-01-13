@@ -79,7 +79,7 @@ python dump-opensea.py
 -k, --apikey / Moralis Web3 API Key
 -f, --filter (OPTIONAL) / Filter by Tokens (2 If you want to filter by holders with 2 or more tokens...)
 ```
-- Type ```python os-snapshots -h``` to get the available flags
+- Type ```python dump-opensea -h``` to get the available flags
 
 # Results
 
