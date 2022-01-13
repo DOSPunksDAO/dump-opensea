@@ -65,7 +65,7 @@ This software is distributed under a Creative Commons Attribution-NonCommercial
 
 #### Running with user input
 ```
-python os-snapshots.py
+python dump-opensea.py
 ```
 - Fill the inputs with your data
 - Filter is `OPTIONAL` (Example: 2 If you want to filter by holders with 2 or more tokens...)
